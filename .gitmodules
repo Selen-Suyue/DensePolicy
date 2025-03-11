@@ -1,0 +1,6 @@
+[submodule "dependencies/MinkowskiEngine"]
+	path = dependencies/MinkowskiEngine
+	url = https://github.com/NVIDIA/MinkowskiEngine.git
+[submodule "dependencies/pytorch3d"]
+	path = dependencies/pytorch3d
+	url = https://github.com/facebookresearch/pytorch3d.git
