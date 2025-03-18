@@ -1,6 +1,6 @@
 # Dense Policy: Bidirectional Autoregressive Learning of Actions
 
-[![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)]() [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)]() [![Tasks Report](https://img.shields.io/badge/Report-PDF-orange.svg)]()
+[![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv-red.svg)](https://arxiv.org/abs/2503.13217) [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://github.com/Selen-Suyue/DensePolicy) [![Tasks Report](https://img.shields.io/badge/Report-PDF-orange.svg)]()
 
 **Authors**: <a href="https://selen-suyue.github.io" style="color: maroon; text-decoration: none; font-style: italic;">Yue Su*</a><sup></sup>,
 <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" style="color: maroon; text-decoration: none; font-style: italic;">Xinyu Zhan*</a><sup></sup>,
@@ -46,7 +46,12 @@ bash eval.sh
 ## ✍️ Citation
 
 ```bibtex
-
+@misc{DensePolicy,
+      title={Dense Policy: Bidirectional Autoregressive Learning of Actions}, 
+      author={Yue Su and Xinyu Zhan and Hongjie Fang and Han Xue and Hao-Shu Fang and Yong-Lu Li and Cewu Lu and Lixin Yang},
+      year={2025},
+      archivePrefix={arXiv}
+}
 ```
 
 ## 📃 License
