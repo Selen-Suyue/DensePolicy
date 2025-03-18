@@ -13,7 +13,7 @@
 
 ![teaser](assets/images/teaser.png)
 ## 🛫 Getting Started
-
+This is the 3D version of Dense Policy, you can also refer [2D Dense Policy Code](https://github.com/Selen-Suyue/DensePolicy2D) here.
 ### 💻 Installation
 
 Please following the [installation guide](assets/docs/INSTALL.md) to install the `dsp` conda environments and the dependencies, as well as the real robot environments. Also, remember to adjust the constant parameters in `dataset/constants.py` and `utils/constants.py` according to your own environment.
