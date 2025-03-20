@@ -47,11 +47,11 @@ bash eval.sh
 ## ✍️ Citation
 
 ```bibtex
-@misc{DensePolicy,
-      title={Dense Policy: Bidirectional Autoregressive Learning of Actions}, 
-      author={Yue Su and Xinyu Zhan and Hongjie Fang and Han Xue and Hao-Shu Fang and Yong-Lu Li and Cewu Lu and Lixin Yang},
-      year={2025},
-      archivePrefix={arXiv}
+@article{su2025dense,
+  title={Dense Policy: Bidirectional Autoregressive Learning of Actions},
+  author={Su, Yue and Zhan, Xinyu and Fang, Hongjie and Xue, Han and Fang, Hao-Shu and Li, Yong-Lu and Lu, Cewu and Yang, Lixin},
+  journal={arXiv preprint arXiv:2503.13217},
+  year={2025}
 }
 ```
 
