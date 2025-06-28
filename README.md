@@ -24,7 +24,41 @@ Please calibrate the camera(s) with the robot before data collection and evaluat
 
 ### 🛢️ Data Collection
 
-Data will be released soon.
+You can view the sampled data (cut task) from this [link](https://drive.google.com/drive/folders/15vCT9F_s6qdLfm-Hv22WhZTHv1KsjDa1?usp=drive_link), which contains task data (one trajectory for instance). You can ignore other files
+since they are for [MBA](https://selen-suyue.github.io/MBApage/)
+We follow the data managemnet pattern as [RH20T](https://rh20t.github.io/).
+
+```
+Task_name
+`-- train/
+    |-- [episode identifier 1]
+    |   |-- metadata.json              # metadata
+    |   |-- timestamp.txt              # calib timestamp  
+    |   |-- cam_[serial_number 1]/    
+    |   |   |-- color                  # RGB
+    |   |   |   |-- [timestamp 1].png
+    |   |   |   |-- [timestamp 2].png
+    |   |   |   |-- ...
+    |   |   |   `-- [timestamp T].png
+    |   |   |-- depth                  # depth
+    |   |   |   |-- [timestamp 1].png
+    |   |   |   |-- [timestamp 2].png
+    |   |   |   |-- ...
+    |   |   |   `-- [timestamp T].png
+    |   |   |-- tcp                    # tcp
+    |   |   |   |-- [timestamp 1].npy
+    |   |   |   |-- [timestamp 2].npy
+    |   |   |   |-- ...
+    |   |   |   `-- [timestamp T].npy
+    |   |   `-- gripper_command        # gripper command
+    |   |       |-- [timestamp 1].npy
+    |   |       |-- [timestamp 2].npy
+    |   |       |-- ...
+    |   |       `-- [timestamp T].npy
+    |   `-- cam_[serial_number 2]/     # similar camera structure
+    `-- [episode identifier 2]         # similar episode structure
+```
+
 
 ### 🧑🏻‍💻 Training
 
