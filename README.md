@@ -83,11 +83,13 @@ bash eval.sh
 ## ✍️ Citation
 
 ```bibtex
-@article{su2025dense,
-  title={Dense Policy: Bidirectional Autoregressive Learning of Actions},
-  author={Su, Yue and Zhan, Xinyu and Fang, Hongjie and Xue, Han and Fang, Hao-Shu and Li, Yong-Lu and Lu, Cewu and Yang, Lixin},
-  journal={arXiv preprint arXiv:2503.13217},
-  year={2025}
+@InProceedings{Su_2025_ICCV,
+    author    = {Su, Yue and Zhan, Xinyu and Fang, Hongjie and Xue, Han and Fang, Hao-Shu and Li, Yong-Lu and Lu, Cewu and Yang, Lixin},
+    title     = {Dense Policy: Bidirectional Autoregressive Learning of Actions},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {14486-14495}
 }
 ```
 
