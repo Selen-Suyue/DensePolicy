@@ -24,6 +24,11 @@ Please following the [installation guide](assets/docs/INSTALL.md) to install the
 
 Please calibrate the camera(s) with the robot before data collection and evaluation to ensure correct spatial transformations between camera(s) and the robot. Please refer to [calibration guide](assets/docs/CALIB.md) for more details.
 
+### 🌠 DSP in the Community
+
+- [RoboMIND 2.0](https://arxiv.org/abs/2512.24653), where dsp shows strong transferability and generalization capabilities across diverse robotic platforms, making it suitable for open-world, multi-robot manipulation scenarios.
+- [DSPv2](https://github.com/Selen-Suyue/DSPv2), where dsp is used for whole-body mobile manipulation.
+
 ### 🛢️ Data Collection
 
 You can view the sampled data (cut task) from this [link](https://drive.google.com/drive/folders/15vCT9F_s6qdLfm-Hv22WhZTHv1KsjDa1?usp=drive_link), which contains task data (one trajectory for instance). You can ignore other files
