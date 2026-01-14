@@ -88,7 +88,7 @@ bash eval.sh
 ## ✍️ Citation
 
 ```bibtex
-@InProceedings{Su_2025_ICCV,
+@InProceedings{DSP,
     author    = {Su, Yue and Zhan, Xinyu and Fang, Hongjie and Xue, Han and Fang, Hao-Shu and Li, Yong-Lu and Lu, Cewu and Yang, Lixin},
     title     = {Dense Policy: Bidirectional Autoregressive Learning of Actions},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
